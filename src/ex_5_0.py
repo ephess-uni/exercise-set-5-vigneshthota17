@@ -2,7 +2,11 @@
 
 
 def line_count(infile):
-    pass
+    with open(infile, 'r') as file_ex5:
+        
+        lines = file_ex5.readlines()
+        
+    print(len(lines))
 
 
 if __name__ == "__main__":
