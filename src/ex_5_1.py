@@ -20,7 +20,7 @@ if __name__ == "__main__":
     # (see README.md for more details)
     parser = argparse.ArgumentParser(description="This program prints the number of lines in infile.")
     
-    parser.add_argument("infile", ,help='new set 5',nargs='?')
+    parser.add_argument("infile", ,help='new set asng',nargs='?')
        
     args = parser.parse_args()
     
